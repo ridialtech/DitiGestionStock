@@ -21,6 +21,7 @@ namespace DitiGestionStock.Model
         public string Email { get; set; }
         [MaxLength(10)]
         public string Status { get; set; }
+        public bool isFirstConnect { get; set; }
 
     }
 }
